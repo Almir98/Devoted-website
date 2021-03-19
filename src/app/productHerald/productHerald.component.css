@@ -1,0 +1,482 @@
+.product-page{
+    min-height: auto;
+    background: rgb(230,230,230);
+    background: radial-gradient(circle, #ffffff 30%, #cecece 90%) 100%;
+}
+/* top site */
+
+.top-nav-site{
+    min-height: 15vh;
+    padding: 0% 5%;
+}
+
+.logo-containter{
+    width: 100%;
+}
+
+#heraldPicture{
+    max-height: 80px;
+    padding-top: 30px;
+    float: left;
+}
+
+.wrap-herald{
+    padding-top: 20px;
+    padding-left: 10px;
+    float: left;
+}
+
+#heraldText{
+    font-weight: 400;
+    color:#123A42;
+}
+
+#heraldTextSubtitle{
+    font-weight: 400;
+    color:#123A42;
+}
+
+#trialButton{
+    height: 50px;
+    width: 100%;
+    padding: 0px 10%;
+    border: none;
+    border-radius: 25px;
+    background: rgb(30,93,105);
+    background: linear-gradient(90deg, rgba(30,93,105,1) 0%, rgba(22,71,81,1) 50%, rgba(19,60,68,1) 100%);
+    font-size: 17px;
+    color: white;
+}
+/* MAIN CONTENT - Pictures css*/
+
+#heraldCentralBanner{
+    min-height: 65vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#heralCentralBannerComputerPic{
+    max-width: calc(80% - 60px);
+    max-height: 45vh;
+    margin-left: 20px;
+}
+
+#heralCentralBannerMobilePic{
+    max-height: 30vh;
+    max-width: 20%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#heraldCentralBannerTextContiner{
+    height: 50px;
+    padding-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 550;
+    color: black;
+    font-size: calc(16px + 0.1vw);
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+/* BOTTOM css*/
+
+.bottom-site{
+    min-height: 15vh;
+    padding: 0% 5%;
+}
+
+#telecomBanner{
+    width: 100%;
+    height: 50px;
+    padding: 12px 10px;
+    margin-top: calc((15vh - 50px)/2);
+    border-radius: 25px;
+    color: rgb(230, 120, 23);
+    background-color: white;
+}
+
+.trial-cover{
+    padding-top: 30px;
+}
+
+#telecomTextConainer{
+    max-width: calc(100% - 95px);
+    padding-left: 10px;;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#telecomLogo{
+    max-height: 20px;
+    position: relative;
+    top: -20px;
+    right: 10px;
+    float: right;
+}
+/* HARDWARE DEVICES */
+
+.hardware-picture-container {
+    padding-top: 30px;
+}
+
+.hardware-material{
+    height: auto;
+    background-color: white;
+    color: #333333;
+}
+
+.hardware-container-top{
+    border-right: 2px solid #123A42;
+    padding: 0% 5%;
+}
+
+.hardware-container-bot{
+    border-right: 2px solid #123A42;
+    padding: 0% 5%;
+}
+
+.placeholder {
+    min-height: 50px;
+}
+
+#opcPicture{
+    max-width: 80%;
+    max-height: 130px;
+    margin: auto;
+    display: block;
+}
+
+#siemensPicture{
+    max-width: 35%;
+    max-height: 130px;
+    margin: auto;
+    display: block;
+}
+
+#apiPicture{
+    max-width: 35%;
+    max-height: 130px;
+    margin: auto;
+    display: block;
+}
+
+.hardware-text{
+    color: #123A42;
+    font-weight: 700;
+    font-size: calc(20px + 0.4vw);
+
+}
+/* MICROSOFT Azure*/
+
+.microsoft-azure{
+    height: 50px;
+    background: rgb(0,132,150);
+    background: linear-gradient(90deg, rgba(0,132,150,1) 0%, rgba(14,112,144,1) 60%, rgba(31,115,179,1) 100%);
+    padding: 0px 5%;
+}
+
+#transparentHeraldPicture{
+    max-width: 30px;
+    position: relative;
+    float: left;
+    margin-top: 11px;
+}
+
+#transparentAzurePicture{
+    max-width: 30px;
+    position: relative;
+    float: right;
+    margin-right: 5%;
+    margin-top: 11px;
+}
+
+.azure-content{
+    width: calc(100% - 10% - 60px);
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.microsoft-azure span{
+    color: white;
+    font-size: 17px;
+}
+
+/* HERALD DASHBOARD */
+
+.herald-dashboard{
+    min-height: 20vh;
+    padding:0% 5%;
+}
+
+.herald-box-text {
+
+    padding: 30px 0px 20px 0px;
+    font-size: 17px;
+    color: #123A42;
+}
+
+.herald-box-buttons{
+
+    padding: 0px 0% 50px 0%;
+    font-size: 17px;
+    color: #123A42;
+}
+
+.herald-button{
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    background: rgb(30,93,105);
+    background: linear-gradient(90deg, rgba(30,93,105,1) 0%, rgba(22,71,81,1) 50%, rgba(19,60,68,1) 100%);
+    color: white;
+}
+
+#dashboardSubtitle{
+    font-size: calc(20px + 0.4vw);
+    font-weight: 700;
+
+}
+/* cloud scada */
+
+
+.scada-cloud{
+    min-height: 50vh;
+}
+
+.scada-items{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.scada-left-side{
+    background-color:rgb(0, 133, 150);
+    background: linear-gradient(180deg, rgba(34,167,184,1) 0%, rgb(0 133 150) 100%);
+    color: white;
+}
+.scada-left-side ul{
+    padding: 0px 10% 30px 15%;
+    margin: 0;
+}
+.scada-left-side ul li{
+    text-align: left;
+    padding-top: 20px;
+}
+
+#scadaTitle{
+    font-size: 32px;
+    font-weight: 300;
+    padding: 30px 0px 30px 10%;
+
+}
+
+.scada-right-side{
+    padding: 0px;
+    background-color: rgb(210, 210, 210);
+    background: linear-gradient(180deg, rgba(200,200,200) 0%, rgba(210,210,210) 100%);
+    z-index: -1;
+}
+
+.div-absolute{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    background-color:rgb(0, 133, 150);
+    background: linear-gradient(180deg, rgba(34,167,184,1) 0%, rgb(0 133 150) 100%);
+    z-index: -1;
+}
+
+.scada-photos{
+    width: 100%;
+    text-align: center;
+}
+
+#frontalPC{
+    max-width: 100%;
+    max-height: 45vh;
+    padding: 20px 5%;
+}
+
+#frontalMobile{
+    width: 100%;
+    max-height: 45vh;
+    padding: 20px 15%;
+}
+
+.cloud-items{
+    padding: 0% 20px;
+    border-right: 2px solid white;
+    margin-top: 30px;
+    font-size: 16px;
+    color: black;
+}
+
+.cloud-items span{
+    word-wrap: break-word;
+}
+
+.trial-herald-container{
+    padding: 0px 5%;
+}
+
+#trialHeraldButton{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    margin: 35px auto;
+    font-size: 17px;
+    background: rgb(30,93,105);
+    background: linear-gradient(90deg, rgba(30,93,105,1) 0%, rgba(22,71,81,1) 20%, rgba(18,59,67,1) 100%);
+    color: white;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.scada-bottom{
+    background: rgb(34,167,184);
+    background: linear-gradient(180deg, rgba(34,167,184,1) 0%, rgba(1,134,151,1) 100%);
+}
+
+.scada-text-container{
+    padding: 0% 5%;
+}
+
+@media only screen and (max-width: 767px){
+
+    .product-page, .top-nav-site, .herald-dashboard{
+        height: auto;
+    }
+
+    #heraldPicture{
+        max-height: 70px;
+        padding-top: 25px;
+    }
+
+    #heralTransparentPicture{
+        max-height: 65px;
+        padding-top: 25px;
+    }
+
+    #heraldText{
+        font-size: 20px;
+    }
+
+    #heraldTextSubtitle{
+        font-size: 15px;
+    }
+
+    .mobilePicture{
+        width: 130px;
+        margin-left: 30%;
+        margin-top: 5%;
+    }
+    /* HARDWARE DEVICES */
+
+    .hardware-material{
+        padding: 0% 5%;
+    }
+
+    .hardware-container-top{
+        padding-top: 5%;
+        padding-bottom: 10%;
+        border: none;
+    }
+
+    .placeholder{
+        min-height: 30px;
+    }
+
+    #opc-picture{
+        max-width: 80%;
+    }
+    
+    #siemensPicture{
+        max-width: 35%;
+    }
+    
+    #apiPicture{
+        max-width: 35%;
+    }
+    /* azure css*/
+    
+    .textContent{
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    /* HERALD DASHBOARD */
+
+    .herald-box-text{
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .herald-box-buttons{
+        padding: 0;
+        text-align: center;
+    }
+
+    .herald-button{
+        height: 50px;
+        max-width: 80%;
+        margin: 0px 10% 5% 10%;
+    }
+
+    .cloudItems{
+        height: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+        border: none;
+        margin: 20px 10% px 10%;
+    }
+    /* CLOUD SCADA */
+
+    .scada-cloud{
+        height: auto;
+    }
+
+    .cloudTitle{
+        font-size: 25px;
+    }
+
+    .div-absolute{
+        display: none;
+    }
+    
+    #mobileFrontal{
+        width: 80px;
+    }
+
+    .cloud-items{
+        border-right: none;
+    }
+
+    #trialHeraldButton{
+        height: 50px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .cloud-items {
+        border:none;
+    }
+}

@@ -1,0 +1,36 @@
+.homePage{
+    color: white;
+}
+.container-text{
+    padding-left: 5%;
+}
+#title{
+    font-size: 55px;
+    font-family: 'avenir';
+    font-weight: 400;
+}
+#subtitle{
+    font-size: 30px;
+}
+.picture{
+    background-image:url('../../assets/images/CoralRed.png');  
+    min-height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-width: 767px)
+{
+    #title{
+        text-align: center;
+       font-size: calc(20px + 3vw);
+    }
+    #subtitle{
+        text-align: center;
+        font-size: calc(15px + 2vw);
+    }
+    .container-text{
+        padding: 0;
+    }
+}

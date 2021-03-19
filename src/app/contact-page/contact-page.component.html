@@ -1,0 +1,66 @@
+<div class="contact-page row m-0 aos-init aos-animate" data-aos="fade-up">
+   <div class="col-md-6 contact-form">
+      <div class="content">
+         <p class="fs-16">{{'contactPage.contactContent'| translate}}</p>
+         <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+         <div class="form-group">
+            <input type="text" class="form-control" formControlName="spanTitle" placeholder="{{'contactPage.title'| translate}} *">
+            <span class="text-danger" *ngIf="registerFormControl.spanTitle.touched && registerFormControl.spanTitle.errors?.required">
+            {{'contactPage.spanTitle' | translate}}
+            </span>
+         </div>
+         <div class="form-group">
+            <input type="text" class="form-control" formControlName="spanFullName" placeholder="{{'contactPage.name'| translate | titlecase}} *">
+            <span class="text-danger" *ngIf="registerFormControl.spanFullName.touched && registerFormControl.spanFullName.errors?.required">
+            {{'contactPage.spanFullName'| translate}}
+            </span>
+         </div>
+         <div class="form-group">
+            <input type="email" class="form-control" formControlName="spanEmail" placeholder="{{'contactPage.email' | translate}} *">
+            <span class="text-danger" *ngIf="registerFormControl.spanEmail.touched && registerFormControl.spanEmail.invalid">
+            {{'contactPage.spanEmail'| translate}}
+            </span>
+         </div>
+         <div class="form-group">
+            <textarea class="form-control" rows="5" formControlName="spanMessage"  placeholder="{{'contactPage.message'|translate}} *"></textarea>
+            <span class="text-danger" *ngIf="registerFormControl.spanMessage.touched && registerFormControl.spanMessage.errors?.required">
+            {{'contactPage.spanMessage'| translate}}
+            </span>
+         </div>
+         <!-- Upload file -->
+         <div  class="files-list" *ngFor="let item of attachmentArray;let i= index">
+            <p> {{ item.name }} </p>
+            <button class="delete-file" (click)="deleteAttachment(i)">
+               <img class="trash" src="../../assets/images/remove.png">
+            </button>
+         </div>
+         <div class="upload-file-container" (click)="fileInput.click()"  (onFileDropped)="uploadfiles($event)">
+         <input hidden type="file" onclick="this.value = null" accept=".doc,.docx,.pdf,image/*,.xls,.xlsx,application/vnd.openxmlformats-officedocument.wordprocessingml.document" #fileInput (change)="uploadfiles($event.target.files)">
+      </div>
+      <button  type="submit" class="btn btn-block" id="sendMessage">{{'contactPage.btnSend'| translate}}</button>
+      <span class="text-success fs-16" *ngIf="emailSent === true">{{'contactPage.emailSuccesMessage' | translate}}</span>
+      <span class="text-danger fs-16" *ngIf="emailFailed === true">{{'contactPage.emailFailedMessage' | translate}}</span>
+      </form>
+   </div>
+</div>
+
+<div class="col-md-6 contact-details">
+      <div id="contactTitle">{{'contactPage.contactTitle'| translate}}</div>
+   <div id="contactContainerText">
+      <div>
+         <div class="contact-subtitle">{{'contactPage.companyEmail'| translate}}</div>
+         <div class="fs-16">info@devoted.ba</div>
+         <hr>
+      </div>
+      <div>
+         <div class="contact-subtitle">{{'contactPage.ceo'| translate}}</div>
+         <div class="fs-16">kemal.lutvica@devoted.ba</div>
+         <hr>
+      </div>
+      <div>
+         <div class="contact-subtitle">{{'contactPage.phone'| translate}}</div>
+         <div class="fs-16">+387 61 376 853</div>
+      </div>
+   </div>
+</div>
+</div>

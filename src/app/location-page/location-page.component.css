@@ -1,0 +1,90 @@
+    .location-page{
+        min-height: 100vh;
+    }
+    
+    .visit-info{
+        width: 30%;
+        min-width: 384px;
+        max-width: 50%;
+        height: 100%;
+        padding-left: 5%;
+        position: absolute;
+        right: 0;
+        background-color:#333333;
+        opacity: 80%;
+        color: white;
+    }
+    
+    .visit-title{
+        background: rgb(255, 255, 255,0.05);
+        color: white;
+    }
+    
+    .location-title{
+        padding-top: 15%;
+        font-weight: 700;
+        font-size: calc(20px + 0.4vw);
+    }
+    
+    #visitContainer{
+        padding-top: 15%;
+    }
+    
+    .location-subtitle{
+        font-size: calc(15px + 0.4vw);
+        font-weight: 500;
+    }
+    
+    .visit-info hr{
+        width: 50%;
+        margin: 10% 0%;
+        background-color: white;
+    }
+    
+    .maps{
+        padding: 0;     
+    }
+    
+    .google-maps{
+        width: 100%;
+        height: 100%;
+    }
+
+    @media only screen and (max-width: 767px)
+    {
+        .location-page{
+            height: auto;
+        }
+        .visit-info{
+            position: static;
+            width: 100%;
+            min-width: 100%;
+            max-width: 100%;
+            height: auto;
+            padding-left: calc(15% - 5px);
+            padding-right: calc(15% - 5px);
+            padding-top: 10%;
+            padding-bottom: 10%;
+        }
+
+        #visitContainer{
+            padding-top: 0px;
+        }
+
+        .google-maps{
+            height: 400px;
+        }
+
+        .location-title{
+            padding-top: 0;
+        }
+
+        #visitContainer hr{
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+
+        .location-title{
+            padding-bottom: 5%;
+        }
+    }

@@ -1,0 +1,52 @@
+<div class="service-page aos-init aos-animate" data-aos="fade-up">
+   <div class="row m-0 service-container">
+      <!-- left side -->
+      <div class="col-12 col-md-6">
+         <div class="service-item">
+            <div class="service-text">{{'servicePage.consulting' | translate}}</div>
+            <p class="fs-16">{{'servicePage.consultingText' | translate}}</p>
+            <div class="send-request">
+               <a (click)="contactForm('servicePage.consulting')">{{'servicePage.sendRequest' | translate}}<i
+                  class="fa fa-play" aria-hidden="true"></i></a>
+            </div>
+         </div>
+         <div class="service-item">
+            <div class="service-text">{{'servicePage.solutions' | translate}}</div>
+            <p class="fs-16">{{'servicePage.solutionsText' | translate}}</p>
+            <div class="send-request">
+               <a (click)="contactForm('servicePage.solutions')">{{'servicePage.sendRequest' | translate}}<i
+                  class="fa fa-play" aria-hidden="true"></i></a>
+            </div>
+         </div>
+         <div class="service-item pb-5">
+            <div class="service-text">{{'servicePage.automation' | translate}}</div>
+            <p class="fs-16">{{'servicePage.automationText' | translate}}</p>
+            <div class="send-request">
+               <a (click)="contactForm('servicePage.automation')">{{'servicePage.sendRequest' | translate}}<i 
+                  class="fa fa-play" aria-hidden="true"></i></a>
+            </div>
+         </div>
+      </div>
+      <!-- right side -->
+      <div class="col-12 col-md-6">
+         <div class="row product-item-right">
+            <div class="service-text-container">
+               <div id="heraldText">{{'servicePage.herald'| translate}}</div>
+               <div id="heraldSubtitle">{{'servicePage.heraldSubtitle' | translate}}</div>
+               <hr>
+               <p class="mb-0 fs-16">{{'servicePage.heraldText1' | translate}}</p>
+               <p class="fs-16">{{'servicePage.heraldText2' | translate}}</p>
+            </div>
+            <div class="w-100">
+               <div class="background-fill"></div>
+               <img id="frontalComputer" src="../../assets/images/pcFrontal.png">
+               <img id="frontalMobileServices" src="../../assets/images/mobileFrontal.svg">
+            </div>
+            <div class="col-md-12 send-request-right">
+               <a (click)="contactForm('servicePage.herald')">{{'servicePage.sendRequest' | translate}}<i class="fa fa-play"
+                  aria-hidden="true"></i></a>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>

@@ -1,0 +1,96 @@
+.footer-page{
+    background-color:rgb(0, 17, 24);
+    color: white;
+}
+
+.footer-top{
+    padding-left: 5%;
+}
+
+.footer-content{
+    margin-bottom: 25px;
+}
+
+.footer-content-container{
+    padding:0px 5%;
+}
+
+/* left part of footer */
+
+.footer-logo-text{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.social-links li{
+    display: inline-block;
+    padding-left:25px;
+}
+
+.company-information{
+    padding-left: 25px;
+}
+/* right part of footer */
+.footer-right{
+    text-align: right;
+}
+.social-links li a{
+    font-size: 35px;
+    color: white;
+}
+.footer-text-container{
+    padding-bottom: 10px;
+}
+
+#devotedTransparentImage{
+    padding-top: 20px;
+    width: 25px;
+    float: left;
+    margin-right: 20px;
+}
+
+.footer-text{
+    font-weight: bold;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%
+}
+
+table td {
+    word-wrap: break-word
+}
+
+@media only screen and (max-width: 767px){
+    footer{
+        font-size: 20px;
+    }
+    .social-links li{
+        padding: 10px;
+    }
+    .footer-right{
+        text-align: left;
+    }
+    .social-links li{
+        padding-left: 0;
+        padding-right: 15px;
+        display: inline;
+    }
+    .company-information{
+        padding-left: 17px;
+    }
+    td{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 280px){
+
+    .company-information{
+        padding-left: 5px;
+    }
+    td{
+        font-size: 12px;
+    }
+}

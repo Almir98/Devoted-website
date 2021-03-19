@@ -1,0 +1,186 @@
+/* nav */
+.nav{
+    position: fixed;
+    min-height: 50px;
+    color: white;
+}
+
+#logo{
+    color: white;
+    width: 25px;   
+    cursor: pointer;
+}
+
+#nav.scrolled-nav-style{
+    background-color: white;
+    color: rgb(26,26,26);
+    border-bottom: 3px solid #D03351;
+}
+.particles{
+    width: 100%;
+    height: 100vh;
+}
+
+ul li a{
+    text-transform: lowercase;
+    margin: 0;
+    font-family: 'ebrima';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+select{
+    border: none;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    text-align: center;
+    padding: 0px 15px;
+    background-color: transparent;
+    color: white;
+    font-family: 'ebrima';
+    cursor: pointer;
+}
+
+select option{
+    color: black;
+    font-family: 'ebrima';
+}
+
+.home-link{
+    font-size: 33px;
+    letter-spacing: 6px;
+    padding-left: 10px; 
+    color: white;
+}
+
+.home-link-scrolled-style{ 
+    font-size: 33px;
+    letter-spacing: 6px;
+    padding-left: 10px; 
+    color:#D03351 !important;
+}
+
+#open-NavBtn{
+    display: none;
+}
+
+select:focus{
+    outline: none !important;
+}
+.overlay .closebtn {
+    display: none;
+}
+#closebtn {
+    display: none;
+}
+.logoPicture{
+    width: 330px;
+}
+
+#selectList{
+    color: white;
+}
+
+.select-list option{
+    background: rgb(170, 31, 43); 
+    color: white;
+}
+
+.navclosed{
+    display: '' !important;
+}
+
+.navopened{
+    width: 100%;
+    height: 100%;
+    display: block !important;
+}
+
+ .select-list{
+    color: white;
+ }
+ 
+ .select-list-scrolled-style{
+    color: rgb(26, 26, 26, 1) !important;
+ }
+
+ .hamburger-menu{
+    width: 23px;
+    height: 21px;
+    margin-bottom: 9px;
+}
+
+@media only screen and (max-width:767px){
+
+    #selectList option{
+        background-color: rgba(0,0,0, 0.9);
+        color: white;
+    }
+    .select-list-scrolled-style{
+        color: white !important;
+     }
+    
+    #open-NavBtn {
+    font-size: 29px;
+        display: inline-block;
+        cursor: pointer;
+        color: white;
+   }
+
+    #myNav {
+        position: fixed;
+        min-width: 100%;
+        min-height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0, 0.9);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        transition: 1s;
+        display: none;
+   }
+
+    li{
+       width: 100%;
+       text-align: center;
+    }
+    
+    #selectList ul li{
+        color: white;
+    }
+
+    select option{
+        background-color: transparent;
+    }
+
+   .firstItem{
+       margin-top: 45%;
+   }
+
+    .overlayContent{
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+   }
+
+    #closebtn {
+        display: inline;
+        position: absolute;
+        right: 20px;
+        font-size: 30px;
+        color: white;
+        
+   }
+    #select{
+        width: 90px;
+   }
+    .logoPicture{
+        width: 270px;
+        height: auto;
+   }
+}
